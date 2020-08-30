@@ -1,0 +1,78 @@
+.techNav{
+    height: 100px;
+    width: 100%;
+    background: #F0F0F0;
+    margin: 0 0 10px;
+}
+.docuItem{
+    width: 100%;
+    height: 150px;
+    border-bottom: 1px solid #dedede;
+    overflow: hidden;
+    margin-bottom: 10px;
+    display: inline-block;
+}
+.bigChild{
+    width: 80%;
+    height: 100%;
+    float: left;
+    padding: 0 20px;
+    transition: all .3s linear;
+}
+.smallChild{
+    width: 15%;
+    height: 100%;
+    float: left;
+}
+.bigChild>span{
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 3; /* 显示三行，后面省略 */
+    overflow: hidden;
+}
+.childTitle{
+    font-size: 18px;
+    margin: 10px 0 1rem;
+}
+.scTime{
+    margin: 2rem 0;
+    text-align: center;
+}
+.smallChild>div{
+    width: 50px;
+    height: 50px;
+    margin: 0 auto;
+    position: relative;
+    overflow: hidden;
+}
+.smallChild>div :first-child{
+    width: 100%;
+    height: 50px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    text-align: center;
+    line-height: 50px;
+    transition: all .3s linear;
+}
+.secJiantou{
+    position: absolute;
+    width: 100%;
+    height: 50px;
+    text-align: center;
+    line-height: 50px;
+    left: -50px;
+    transition: all .3s linear;
+}
+.docuItem:hover .bigChild{
+    transform: translateX(10px);
+}
+.docuItem:hover .smallChild>div>div{
+    transform: translateX(50px);
+}
+.docuItem:hover{
+    cursor: pointer;
+}

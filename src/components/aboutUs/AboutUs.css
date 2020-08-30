@@ -1,0 +1,55 @@
+.comNav{
+    height: 150px;
+    width: 100%;
+    background: #F0F0F0;
+    margin: 0 0 10px;
+}
+.Comprofile{
+    overflow: hidden;
+    padding: 20px;
+}
+.comprofileImg{
+    width: 300px;
+    height: 300px;
+    float: left;
+    margin:0 10px 10px 0;
+}
+.cultureImg{
+    width: 100%;
+    height: 500px;
+    text-align: center;
+    line-height: 500px;
+}
+.CImgs{
+    width: 100%;
+    height: 100%;
+}
+.slogan{
+    font-size: 18px;
+    margin: 10px 0 1rem;
+    color: #000;
+}
+.certificateBox{
+    width: 150px;
+    height: 200px;
+    border: 1px solid;
+    float: left;
+    margin: 0 20px 10px;
+}
+.navlinkBox{
+    width: 100%;
+    height: 50px;
+}
+.navlinkBox>a:visited,
+.navlinkBox>a:hover,
+.navlinkBox>a:active,
+.navlinkBox>a:link{
+    text-decoration: none;
+    display: inline-block;
+}
+.active{
+    background: #f0ffff;
+}
+/* .active:visited{
+    color: white;
+} */

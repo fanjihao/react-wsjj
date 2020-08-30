@@ -1,0 +1,80 @@
+.gscCenter{
+    width: 70%;
+    /* height: 800px; */
+    padding: 50px 0;
+    margin: 0 auto;
+    overflow: hidden;
+}
+.gscLeft{
+    width: 20%;
+    height: 100%;
+    float: left;
+}
+.gscRight{
+    height: 100%;
+    width: 78%;
+    float: right;
+}
+.goodsNav{
+    height: 200px;
+    width: 100%;
+    background: #ccc;
+    margin: 0 0 10px;
+}
+.goodsNav>div{
+    height: 50px;
+    width: 100%;
+}
+.goodsNav a:hover{
+    background: #f0ffff;
+    /* color: white; */
+}
+.goodsNav a{
+    width: 100%;
+    height: 100%;
+    display: inline-block;
+    padding-left: 30px;
+    line-height: 50px;
+}
+.navItem{
+    width: 100%;
+    height: 50px;
+    line-height: 50px;
+    padding-left: 30px;
+    border-bottom: 1px solid #dedede;
+}
+.rightBrandNav{
+    width: 100%;
+    height: 50px;
+    line-height: 50px;
+    border-bottom: 1px solid #dedede;
+    padding: 0 10px;
+    overflow: hidden;
+}
+.rightBrandNav>p{
+    float: left;
+    margin: 0;
+}
+.rightBrandNav>div{
+    float: right;
+}
+.rightGoods{
+    width: 100%;
+    overflow: hidden;
+    padding: 50px 0;
+}
+.gscCenImg{
+    width: 200px;
+    height: 200px;
+    border: 1px solid;
+    margin: 20px 0;
+}
+.goodsItem{
+    width: 275px;
+    height: 250px;
+    display: flex;
+    flex-flow: column;
+    justify-content: space-around;
+    align-items: center;
+    float: left;
+}

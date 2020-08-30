@@ -1,0 +1,276 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.viewPort{
+    width: 100%;
+    height: 600px;
+    overflow: hidden;
+}
+.viewImg{
+    width: 100%;
+    height: 600px;
+    float: left;
+}
+.goodsService{
+    width: 70%;
+    margin: 0 auto;
+}
+.serviceTop{
+    width: 100%;
+    height: 100px;
+    text-align: center;
+    line-height: 50px;
+    margin: 20px 0;
+}
+h3{
+    color:#05A045;
+}
+.title::before,.title::after{
+    content: '——————————————————————';
+    color: black;
+}
+.goodsList{
+    width: 100%;
+    height: 200px;
+    margin-bottom: 20px;
+    background: #F6F6F6;
+    overflow: hidden;
+}
+.goodsMore,.goodsMoreOther{
+    width: 200px;
+    height: 200px;
+    background:#a9a9a9 ;
+    padding: 10px;
+    float: left;
+}
+.goodsMoreOther{
+    background: #a9a9a9;
+}
+.gsItem{
+    height: 200px;
+    float: left;
+    width: 200px;
+    text-align: center;
+    padding: 20px;
+}
+.goodsImg{
+    width: 100px;
+    height: 100px;
+    border-radius: 50px;
+    margin: 0 30px 20px;
+    border: 1px solid;
+    overflow: hidden;
+}
+.titleMore,.titleMorelit{
+    color: white;
+    font-size: 20px;
+    margin: 0;
+}
+.titleMorelit{
+    font-size: 12px;
+}
+.shortLine{
+    width: 80px;
+    border-bottom: 3px solid white;
+    margin: 35px 0;
+}
+.moreBtn{
+    width: 100%;
+    height: 50px;
+    line-height: 50px;
+    border: 1px solid;
+    color: white;
+    border-radius: 10px;
+    text-align: center;
+    display: inline-block;
+}
+.moreBtn:visited{
+    color: white;
+}
+.moreBtn:hover{
+    cursor: pointer;
+}
+.showMore{
+    width: 70%;
+    margin: 80px auto;
+}
+.childOfShow{
+    width: 100%;
+    height: 500px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.roundOfChild{
+    width: 500px;
+    height: 500px;
+    border-radius: 250px;
+    background: #e5e5e5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.roundImg{
+    width: 470px;
+    height: 470px;
+    border-radius: 240px;
+    background: yellow;
+    overflow: hidden;
+}
+.insOfChild{
+    width: 500px;
+    height: 300px;
+    padding: 0 20px;
+}
+.insTitle{
+    font-size: 45px;
+    margin: 0 0 20px;
+    color:#05A045 ;
+}
+.insOfChild>span{
+    color: #0068B7;
+}
+.blueLine{
+    border-bottom-color: #0068B7;
+}
+.aboutNew{
+    width: 100%;
+    height: 400px;
+    overflow: hidden;
+}
+.aboutLeft{
+    width: 60%;
+    height: 100%;
+    /* background: #0068B7; */
+    background: #a9a9a9;
+    float: left;
+    overflow: hidden;
+    color: white;
+}
+.aboutLeft>div{
+    width: 75%;
+    height: 400px;
+    float: right;
+    display: flex;
+    flex-flow: column;
+    justify-content: space-around;
+}
+.firstOne{
+    margin: 40px 0;
+}
+.aboutRight{
+    width: 40%;
+    height: 100%;
+    /* background: #05A045; */
+    background: #ccc;
+    float: left;
+}
+.leftTitle{
+    font-size: 30px;
+    margin-right: 20px;
+}
+.roundLittle{
+    width: 50px;
+    height: 50px;
+    border-radius: 25px;
+    overflow: hidden;
+}
+.targetItem{
+    overflow: hidden;
+    margin:0 0 40px;
+}
+.targetItem>div{
+    float: left;
+}
+.targetItem>div>p{
+    margin: 0;
+}
+.verticalLine{
+    height: 50px;
+    border-right: 3px solid;
+    margin: 0 30px;
+}
+.boldP{
+    font-size: 18px;
+}
+.partner{
+    width: 100%;
+    height: 400px;
+    background: #f6f6f6;
+}
+.partner>.serviceTop{
+    margin: 0 0 20px;
+}
+.swiper{
+    width: 70%;
+    height: 200px;
+    margin: 30px auto;
+    border: 1px solid;
+}
+.leaveMsg{
+    width: 100%;
+    height: 600px;
+    background: white;
+}
+.leaveMsg>div{
+    width: 70%;
+    margin: 0 auto;
+    height: 100%;
+    overflow: hidden;
+}
+.msgLeft,.msgRight{
+    width: 50%;
+    height: 600px;
+    float: left;
+}
+.msgLeft{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.msgLeft>div{
+    height: 100%;
+}
+.telTop{
+    font-size: 26px;
+    color: #a9a9a9;
+    margin: 2rem 0;
+}
+.telRound{
+    width: 200px;
+    height: 200px;
+    border-radius: 100px;
+    background: #e5e5e5;
+    float: right;
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+}
+.msgImg{
+    background: #e5e5e5;
+    float: right;
+    height: 400px;
+    width: 50%;
+    text-align: center;
+}
+.telIcon{
+    width: 50px;
+    height: 50px;
+    margin: 10px 0;
+}
+.horLine{
+    width: 60px;
+    margin: 10px 0;
+    border-bottom: 3px solid #ccc;
+}
+.tishi{
+    color: red;
+}
+.ant-form-horizontal .ant-form-item-label{
+    margin: 0 0 0 -100px;
+}
+textarea.ant-input{
+    min-height: 150px;
+}
